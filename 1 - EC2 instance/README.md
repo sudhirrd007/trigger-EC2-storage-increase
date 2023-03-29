@@ -31,3 +31,4 @@
 - select "sudhir-vm-securitygroup" security group
 - select "sudhir-vm-iam" iam role
 - For storage select 8 GB
+
