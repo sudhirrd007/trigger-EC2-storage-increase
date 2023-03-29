@@ -5,7 +5,10 @@
 **Manual Creation**
 
 * Name - sudhir-vm-sns
-* hello
+* select, Type - Standard
+* select, Protocol - Email
+  * enter email address "ssrrdd007@gmail.com" in "Endpoint"
+
 
 # 2. Create and Configure Alarm
 
@@ -31,6 +34,6 @@
 
 * Under Conditions
   * select Greater than 80%
+  
 * Under Notification
-  * create a new SNS topic
-  * Here, enter email address on which you want your alert to send
+  * select SNS as "sudhir-vm-sns"
