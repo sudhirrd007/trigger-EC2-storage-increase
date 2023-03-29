@@ -1,4 +1,13 @@
-# Create and Configure Alarm
+# 1. Create SNS Topic
+
+**REASON** - we alarm will trigger, it will send message to SNS Topic
+
+**Manual Creation**
+
+* Name - sudhir-vm-sns
+* 
+
+# 2. Create and Configure Alarm
 
 **REASON** - By using this alarm we can perform some actions when storage utilization crosses 80% threshold. Cloud Watch agent keep sending metrics to cloud watch. Here, we will set an alarm, which will trigger after crossing of 80% storage utilization.
 
