@@ -22,7 +22,7 @@
 
 * Add trigger
 
-  * add SNS
+  * add SNS - sudhir-vm-sns
 
 * code
 
@@ -35,7 +35,7 @@
       # Modify the EBS volume size
       response = ec2.modify_volume(
           VolumeId='vol-0dff581451728a3a0',
-          Size=10)
+          Size=12)
       
       print("====================== Volume Incresed =================================")
       
