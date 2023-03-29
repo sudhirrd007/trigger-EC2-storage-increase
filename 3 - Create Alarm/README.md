@@ -18,7 +18,7 @@
 
 * select metric as below
 
-  ![image-20230329151656550](screenshots/2.png)
+  ![image-20230329151656550](Screenshots/2.png)
 
 * Under Conditions
   * select Greater than 80%
